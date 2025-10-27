@@ -43,7 +43,7 @@ export default function LoanCalculator() {
       {
         installments: 2,
         type: "2 Cuotas de",
-        totalInterest: rates[1],
+        totalInterest: rates[1] + rates[0],
         bgColor: "bg-gradient-to-br from-blue-100 to-cyan-100",
         textColor: "text-gray-700",
         borderColor: "border-blue-100",
@@ -51,7 +51,7 @@ export default function LoanCalculator() {
       {
         installments: 3,
         type: "3 Cuotas de",
-        totalInterest: rates[2],
+        totalInterest: rates[2] + rates[0],
         bgColor: "bg-green-50",
         textColor: "text-gray-700",
         borderColor: "border-green-100",
@@ -59,7 +59,7 @@ export default function LoanCalculator() {
       {
         installments: 6,
         type: "6 Cuotas de",
-        totalInterest: rates[3],
+        totalInterest: rates[3] + rates[0],
         bgColor: "bg-gray-50",
         textColor: "text-gray-700",
         borderColor: "border-gray-150",
@@ -67,7 +67,7 @@ export default function LoanCalculator() {
       {
         installments: 9,
         type: "9 Cuotas de",
-        totalInterest: rates[4],
+        totalInterest: rates[4] + rates[0],
         bgColor: "bg-slate-50",
         textColor: "text-gray-700",
         borderColor: "border-slate-150",
@@ -75,7 +75,7 @@ export default function LoanCalculator() {
       {
         installments: 12,
         type: "12 Cuotas de",
-        totalInterest: rates[5],
+        totalInterest: rates[5] + rates[0],
         bgColor: "bg-neutral-50",
         textColor: "text-gray-700",
         borderColor: "border-neutral-150",
